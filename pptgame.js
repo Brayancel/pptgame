@@ -13,9 +13,14 @@ function pcho (){
     }
 }
 
+function mycho (){
+    let cho = prompt ("choose");
+    return cho;
+}
 
-
-
-
-
+function bum(mychoice, pcchoice){
+    let a = mychoice;
+    let b = pcchoice;
+    return a + " " + "X" + " " + b;
+}
 
